@@ -6,4 +6,4 @@ bill_total = float(tip/100 + bill/people)
 print(bill_total)
 true_bill = round(bill_total,2) #2=how many places to round by
 
-print(f"Each person should pay: {true_bill}") 
+print(f"Each person should pay: ${true_bill}") 
